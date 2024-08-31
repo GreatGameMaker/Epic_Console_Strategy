@@ -697,21 +697,4 @@ def poker(soldiers, level, money, campaign_count,relationship, last):
         print("You haven't got a money for minimum bet (25)")
         home(soldiers, level, money, campaign_count,relationship)
 
-
-
 war(soldiers,level,foes,foe_level,foe_name,state,reward,money,relationship,campaign_count)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
