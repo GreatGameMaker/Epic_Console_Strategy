@@ -227,16 +227,16 @@ def home(soldiers, level, money, campaign_count,relationship):
            "Village 'Dream_Progavo'",
            "City 'Perfectoria'",
            "RoadBlock",
-           "Town 'Everything_Googling' (Enemy's)",
-           "Village 'Indusovo' (Enemy's)",
-           "Town 'YouTube_Code_Tupo_Catchers' (Enemy's)",
+           "Town 'Everything_Googling'",
+           "Village 'Indusovo'",
+           "Town 'YouTube_Code_Tupo_Catchers'",
            "Village 'ChatGPT_Coderovo'"
-           "City 'Mud_Coders' (Enemy's)",
+           "City 'Mud_Coders'",
            "Town 'Depression-Friendless-Life'",
            "Town 'Forum_Bezdarey'",
            "Village 'Bezdum'e'",
            "City 'Web_Compiler_Progers'",
-           "GovnoCoders's capital 'Rabotaet - ne - Trogay' (Enemy's)"]
+           "GovnoCoders's capital 'Rabotaet - ne - Trogay'"]
     campaign_reward=[200,
                      300,
                      1000,
