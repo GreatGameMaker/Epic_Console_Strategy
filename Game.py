@@ -140,7 +140,7 @@ def war(soldiers,level,foes,foe_level,foe_name,state,reward,money,relationship, 
 
     while soldiers>0 and foes>0 and action!='r':        
         view()
-        print(f"Press:\n<a> to attack {foe_name}'s army\n<r> to run away and lose this battle. Enemy has chance kill your running army\n<t> to try make {foe_name}'s army surrender. You'll give all of remain soldiers.")
+        print(f"Press:\n<a> to attack {foe_name}'s army\n<r> to run away and lose this battle. Enemy has a chance to kill your running army\n<t> to try make {foe_name}'s army surrender. You'll give all of remain soldiers.")
         keys=['a','r','t']
         broken=False
         while True:
@@ -479,7 +479,7 @@ def home(soldiers, level, money, campaign_count,relationship):
             state='q'
 
     elif action=='c':
-        print(f"Campaign\n\nThis is Campaign mode, where you will pass the game plot.\nHere You, Our Captain and Hope of ProgaMasters, will fight with your enemy - GovnoCoders.\nSo Epic :)\n\nYou can:\n<n> - reject and go home\n<y> - accept and fight\n<i> - info about place where you are and next place. Here You also can see info about enemy and complete reward")
+        print(f"Campaign\n\nThis is Campaign mode, where you continue the game plot.\nHere You are, Our Captain and Hope of ProgaMasters, will fight with your enemy - GovnoCoders.\nSo Epic :)\n\nYou can:\n<n> - reject and go home\n<y> - accept and fight\n<i> - info about place where you are and next place. Here You also can see info about enemy and complete reward")
         keys=['y','n','i']
         broken=False
         while True:
