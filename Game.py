@@ -429,10 +429,10 @@ def home(soldiers, level, money, campaign_count,relationship):
     
     elif action=='s':
         print('Sell\n\n')
-        formula=round(level*relationship*2,2)
+        formula=round(level*relationship,2)
         while True:
             try:
-                sell=int(input(f"Here you can Sell Soldiers\nEnrer the count of the soldiers you wanna sell\n1 soldier cost {formula} ( level * relationship * 2 )\n"))
+                sell=int(input(f"Here you can Sell Soldiers\nEnrer the count of the soldiers you wanna sell\n1 soldier cost {formula} ( level * relationship )\n"))
                 while sell>soldiers:
                     sell=int(input("You haven't got enough soldiers. Try again\n"))
                 break
